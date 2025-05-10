@@ -25,6 +25,7 @@ header {
     background-color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -199,7 +200,7 @@ footer a {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
     }
 
     h1 {
