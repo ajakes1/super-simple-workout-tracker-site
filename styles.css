@@ -99,13 +99,19 @@ h1 {
 }
 
 .app-store-button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     margin-top: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
 }
 
 .app-store-button img {
     height: 44px;
     width: auto;
+    border-radius: 8px;
 }
 
 .features {
@@ -159,7 +165,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #666;
+    color: #020015;
 }
 
 .privacy-content {
